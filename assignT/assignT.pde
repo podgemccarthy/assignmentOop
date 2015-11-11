@@ -45,7 +45,7 @@ void drawdata()
             
             //need to figyre out the y in my rect
         }
-       
+     text ("Ireland", 10,height*0.05);
      text("usage per 100",0,height-90);
      text("years",10,height-50);
 
