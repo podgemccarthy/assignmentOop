@@ -17,7 +17,7 @@ int mode =0;
 void setup()
 {
    bg = loadImage("wifilogo.jpg");
-   size(800,800);
+   size(700,700);
    loaddata();
    loaddata2();
    for (int i = 0 ; i <40 ; i ++)
@@ -155,7 +155,7 @@ void menu()
 {
     
   //background images
-  background (0);  
+  background (bg);  
   smooth();
   frameRate(30);
   
